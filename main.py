@@ -39,13 +39,40 @@ price4= 20.00
 print(f" {price1} is cheap {price2} is less cheap {price3} is somewhat expensive {price4} is really expensive")
 
 
+classStarted = True
+if classStarted:
+    print("class has started")
+else:
+    print("class has not started")
+
+#logical and comparison operators
+#== equal to
+# != not equal to  
+# > greater than
+# < less than
+# >= greater than or equal
+# <= less than or equal to
+# example
+
+
+age:18
+if age >= 18:
+    print("youre an adult")
+elif age == 17:
+    print("youre almost an adult")
+else:
+    print("you are a minor")
+    
 
 
 
 
 
-
-
+number = int(input("what is your number"))
+if number % 2 == 0:
+    print(f"{number} is even")
+else:
+    print(f"{number} is odd")
 
 
 
